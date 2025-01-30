@@ -1,5 +1,20 @@
 /* font
 _______________________________*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", serif;
+}
+
+@mixin font-inter($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: 150%;
+    letter-spacing: 0rem
+}
+
+$font-regular: 400;
+$font-bold: 700;
 
 /* color
 _______________________________*/
@@ -11,3 +26,9 @@ $color-white: #FFFFFF;
 
 /* spacing
 _______________________________*/
+$space-500:2.5rem;
+$space-300:1.5rem;
+$space-300: 1rem;
+$space-150: 0.75rem;
+$space-100: 0.5rem;
+$space-50: 0.25rem;
