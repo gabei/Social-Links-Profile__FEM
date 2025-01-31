@@ -54,6 +54,7 @@ $space-50: 0.25rem;  //4px
 
 body {
     background-color: $color-gray-900;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,6 +122,14 @@ body {
 
 }
 
+.attribution { 
+    padding: $space-150;
+    font-size: $space-150; 
+    text-align: center; 
+    color: $color-gray-700;
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+    & a {
+        color: $color-white;
+    }
+
+}

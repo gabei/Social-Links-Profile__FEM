@@ -21,6 +21,7 @@ _______________________________*/
 _______________________________*/
 body {
   background-color: #141414;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,12 +92,13 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  padding: 0.75rem;
+  font-size: 0.75rem;
   text-align: center;
+  color: #333333;
 }
-
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
