@@ -14,7 +14,7 @@ $small-phone: 450px;
 
 
 @mixin reduce-motion {
-    @media(prefers-reduced-motion){
+    @media (prefers-reduced-motion){
         @content;
     }
 }
