@@ -83,10 +83,10 @@ body {
     padding: spacing.$space-150;
     font-size: spacing.$space-150; 
     text-align: center; 
-    color: color.$gray-700;
+    color: color.$white;
 
     & a {
-        color: color.$white;
+        color: inherit;
     }
 
 }

@@ -95,10 +95,10 @@ body {
   padding: 0.75rem;
   font-size: 0.75rem;
   text-align: center;
-  color: #333333;
+  color: #FFFFFF;
 }
 .attribution a {
-  color: #FFFFFF;
+  color: inherit;
 }
 
 /*# sourceMappingURL=style.css.map */
