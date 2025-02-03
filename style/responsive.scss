@@ -1,0 +1,7 @@
+$small-phone: 450px;
+
+@mixin breakpoint-small-phone {
+    @media screen and (max-width: $small-phone) {
+        @content
+    }
+}
