@@ -11,6 +11,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @include responsive.dark-color-scheme{
+        background-color: darken(color.$gray-900, 5%);
+        filter: brightness(85%);
+    }
 }
 
 a:focus, a:focus-visible, a:focus-within, a:focus-visible {
