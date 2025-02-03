@@ -11,3 +11,10 @@ $small-phone: 450px;
         @content;
     }
 }
+
+
+@mixin reduce-motion {
+    @media(prefers-reduced-motion){
+        @content;
+    }
+}

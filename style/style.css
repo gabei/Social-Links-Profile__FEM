@@ -23,7 +23,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: rgb(7.25, 7.25, 7.25);
+    background-color: black;
     filter: brightness(85%);
   }
 }
@@ -97,6 +97,11 @@ a:focus, a:focus-visible, a:focus-within, a:focus-visible {
   width: 100%;
   padding: 0.75rem;
   transition: 0.5s background-color;
+}
+@media (prefers-reduced-motion) {
+  .card__links-button > a {
+    transition: none;
+  }
 }
 .card__links-button > a:hover {
   color: #1F1F1F;
