@@ -10,7 +10,7 @@
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-## The challenge {The challenge}
+## The challenge {#the-challenge}
 
 Your challenge is to build out this social links profile and get it looking as close to the design as possible.
 
@@ -18,28 +18,29 @@ Your challenge is to build out this social links profile and get it looking as c
 <img id="screenshot" alt="A reference image of the page design." src="preview.jpg">
 </p>
 
-## Links {Links}
+## Links {#links}
 - Solution URL: <a href="#" target="_blank" title="View the code for this project">https://github.com/gabei/Social-Links-Profile__FEM</a>
 - Live Site URL: <a href="#" target="_blank" title="View Gabe's social links profile in a new tab">https://gabei.github.io/Social-Links-Profile__FEM/</a>
 
-### Built with {Built with}
+## My Process
+### Built with {#built-with}
 - Semantic HTML5 markup
 - SCSS + custom properties
 - Flexbox
 
-### What I learned {What I learned}
+### What I learned {#what-i-learned}
 I spent most of this challenge going through a checklist of accessibility requirements. I feel like I got a good sense of things to keep an eye out for in the next project. There are many small properties that add up to the whole of usability and accessibility for most users.
 
-### Continued development {Continued development}
+### Continued development {#continued-development}
 Moving forward I would like to think a lot about how to organize my design responsivity. In these smaller projects I really aim to apply media queries as needed, almost like little CSS properties that can plug in wherever I need them. As the project  gets larger I think this may not be feasible or at least require some rethinking so I don't repeaet myself or sprinkle too many @includes all over the CSS.
 
-### Useful Resources {Useful Resources}
+### Useful Resources {#useful-resources}
 - I constantly referenced <a href="https://www.a11yproject.com/checklist/" target="_blank">this accessibility checklist by a11yproject.</a>
 - <a href="https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/" target="_blank">Axe Dev Tools</a>
 - <a href="https://webhint.io/" target="_blank">Webhint Plugin</a>
 - <a href="https://wave.webaim.org/" target="_blank">Wave Evaluation Tool</a>
 
-## Author {Author}
+## Author {#author}
 - FrontendMentor — <a href="https://www.frontendmentor.io/profile/gabei" target="_blank">@gabei</a>
 - GitHub — <a href="https://github.com/gabei" target="_blank">@gabei</a>
 
