@@ -21,6 +21,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-height: 600px) {
+  body {
+    padding-top: 1rem;
+  }
+}
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
@@ -73,6 +78,7 @@ a:focus, a:focus-visible, a:focus-within, a:focus-visible {
   line-height: 150%;
   letter-spacing: 0rem;
   color: #FFFFFF;
+  text-align: center;
 }
 .card__links {
   width: 100%;

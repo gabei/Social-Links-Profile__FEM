@@ -1,7 +1,14 @@
-$small-phone: 450px;
+$phone: 450px;
+$phone-landscape: 600px;
 
 @mixin breakpoint-small-phone {
-    @media screen and (max-width: $small-phone) {
+    @media screen and (max-width: $phone) {
+        @content;
+    }
+}
+
+@mixin breakpoint-phone-landscape {
+    @media screen and (max-height: $phone-landscape){
         @content;
     }
 }

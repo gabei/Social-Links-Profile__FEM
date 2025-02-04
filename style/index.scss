@@ -12,6 +12,10 @@ body {
     justify-content: center;
     align-items: center;
 
+    @include responsive.breakpoint-phone-landscape {
+        padding-top: 1rem;
+    }
+
     @include responsive.dark-color-scheme{
         background-color: black;
         filter: brightness(85%);
@@ -56,6 +60,7 @@ a:focus, a:focus-visible, a:focus-within, a:focus-visible {
     &__bio {
         @include type.font-inter(spacing.$space-175, type.$font-regular);
         color: color.$white;
+        text-align: center;
     }
 
     &__links {
