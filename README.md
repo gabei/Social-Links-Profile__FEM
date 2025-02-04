@@ -14,7 +14,9 @@
 
 Your challenge is to build out this social links profile and get it looking as close to the design as possible.
 
-[Website preview image](./preview.jpg)
+<p align="center">
+<img alt="A reference image of the page design." src="preview.jpg">
+</p>
 
 ## Links
 - Solution URL: <a href="#" target="_blank" title="View the code for this project">https://github.com/gabei/Social-Links-Profile__FEM</a>
@@ -38,6 +40,6 @@ Moving forward I would like to think a lot about how to organize my design respo
 - <a href="https://wave.webaim.org/" target="_blank">Wave Evaluation Tool</a>
 
 ## Author
-FrontendMentor — <a href="https://www.frontendmentor.io/profile/gabei" target="_blank">@gabei</a>
-GitHub — <a href="https://github.com/gabei" target="_blank">@gabei</a>
+- FrontendMentor — <a href="https://www.frontendmentor.io/profile/gabei" target="_blank">@gabei</a>
+- GitHub — <a href="https://github.com/gabei" target="_blank">@gabei</a>
 
